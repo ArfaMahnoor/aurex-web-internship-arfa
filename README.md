@@ -22,11 +22,13 @@ Created a personal profile webpage using only HTML5 (no CSS), and set up a GitHu
 
 ## Key Learnings
 
-- How to install and set up VS Code and Git
+- How to install and set up VS Code, Git and GitHub
 - Basic Git commands: init, add, commit, push
-- Structuring a page with semantic HTML tags
-- Using labels and alt attributes for accessibility
+- Structuring a page with semantic HTML tags like header, nav, main, section and footer
+- Using proper heading hierarchy (h1, h2, h3)
+- Connecting form inputs with labels for accessibility
 
 ## Difficulties / Blockers
 
-- No major blockers so far.
+- At first, my commit did not work because I forgot to run `git add` before `git commit`. I learned that a file must be added first before it can be committed.
+- I was confused about how to connect my local folder to the GitHub repository. I solved it using `git remote add origin`.
