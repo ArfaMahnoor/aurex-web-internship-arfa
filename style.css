@@ -1,4 +1,4 @@
-/* ===== Pura page ===== */
+/* ===== full page ===== */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #f4f6f8;
@@ -41,6 +41,82 @@ h2 {
 /* ===== Sections ===== */
 section {
     background-color: white;
+}
+
+/* ===== Step 3: Box Model ===== */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+nav {
+    padding: 12px 20px;
+    text-align: center;
+}
+
+nav a {
+    padding: 8px 14px;
+}
+
+
+section {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #2c5282;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+/* Contact form */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 24px;
+    background-color: #2c5282;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
 }
 
 /* ===== Footer ===== */
