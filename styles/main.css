@@ -231,3 +231,35 @@ img {
         width: 100%;
     }
 }
+
+/* ===== Projects Gallery (CSS Grid) ===== */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-md);
+}
+
+.project-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-md);
+    box-shadow: var(--shadow);
+}
+
+.project-card h3 {
+    margin-bottom: var(--space-sm);
+    color: var(--color-primary);
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: var(--space-sm);
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: var(--color-primary-dark);
+}
