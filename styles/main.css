@@ -39,15 +39,15 @@ body {
 
 /* ===== Header ===== */
 header {
-    background-color: var(--color-bg);
-    color: var(--color-text);
+    background-color: var(--color-footer);
+    color: var(--color-surface);
     text-align: center;
     padding: 40px 20px;
 }
 
 /* ===== Navigation ===== */
 nav {
-    background-color: var(--color-bg);
+    background-color: var(--color-surface);
     padding: 12px 20px;
     text-align: center;
 }
