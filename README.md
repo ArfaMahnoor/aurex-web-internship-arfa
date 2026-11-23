@@ -68,19 +68,19 @@ Converted my Week 1 HTML profile page into a modern, responsive portfolio using 
 - Used media queries for tablet (max-width: 768px) and mobile (max-width: 480px)
 - Skills grid, font sizes, spacing and buttons adjust for smaller screens
 
-## Screenshots
+##
 
 ### Desktop
 
-![Desktop view](screenshots/desktop.png)
+![Desktop view](/desktop.png)
 
 ### Tablet
 
-![Tablet view](screenshots/tablet.png)
+![Tablet view](/tablet.png)
 
 ### Mobile
 
-![Mobile view](screenshots/mobile.png)
+![Mobile view](/mobile.png)
 
 ## Key Learnings
 
