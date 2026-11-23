@@ -168,3 +168,64 @@ nav a:hover {
     border: 1px solid #cbd5e0;
     border-radius: 8px;
 }
+
+/* ===== Step 6: Responsive Design ===== */
+
+/* Images kabhi screen se bahar na jayein */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----- Tablet (768px aur us se chhoti screen) ----- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ----- Mobile (480px aur us se chhoti screen) ----- */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    nav a {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    section {
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+}
