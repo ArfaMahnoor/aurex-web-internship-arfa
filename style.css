@@ -125,3 +125,27 @@ footer {
     color: white;
     text-align: center;
 }
+
+/* ===== Step 4: Flexbox ===== */
+
+nav,
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #1e3a5f;
+}
