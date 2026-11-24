@@ -1,15 +1,15 @@
-// 1. HTML ke elements pakro
+// 1. HTML
 const taskForm = document.getElementById("taskForm");
 const taskInput = document.getElementById("taskInput");
 const errorMessage = document.getElementById("errorMessage");
 const taskList = document.getElementById("taskList");
 const filterButtons = document.querySelectorAll(".filter-btn");
 
-// 2. Tasks aur filter ka state
+// 2. Tasks
 let tasks = loadTasks();
 let currentFilter = "all";
 
-// 3. localStorage se tasks lo
+// 3. localStorage
 function loadTasks() {
   try {
     const saved = localStorage.getItem("tasks");
@@ -19,12 +19,12 @@ function loadTasks() {
   }
 }
 
-// 4. localStorage mein tasks save karo
+// 4. localStorage
 function saveTasks() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
-// 5. Tasks ko page par dikhao
+// 5. Tasks
 function renderTasks() {
   taskList.innerHTML = "";
 
@@ -157,5 +157,5 @@ filterButtons.forEach(function (button) {
   });
 });
 
-// 11. Page khulte hi saved tasks dikhao
+// 11. Page
 renderTasks();
