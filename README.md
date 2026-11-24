@@ -161,11 +161,11 @@ I upgraded my Week 2 portfolio into an interactive and animated page. I added a 
 
 ### Card Hover
 
-![Card hover] (screenshots/card hover.jpeg)
+![Card hover](screenshots/card-hover.jpeg)
 
 ### Skills Hover
 
-![Skills hover](screenshots/skills hover.png)
+![Skills hover](screenshots/skills-hover.png)
 
 ## Folder Structure
 
