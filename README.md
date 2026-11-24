@@ -149,27 +149,23 @@ I upgraded my Week 2 portfolio into an interactive and animated page. I added a 
 
 ### Desktop
 
-![Desktop view](screenshots/week3-desktop.png)
+![Desktop view](screenshots/desktop.png)
 
 ### Tablet
 
-![Tablet view](screenshots/week3-tablet.png)
+![Tablet view](screenshots/tablet.png)
 
 ### Mobile
 
-![Mobile view](screenshots/week3-mobile.png)
+![Mobile view](screenshots/mobile.png)
 
 ### Card Hover
 
-![Card hover](screenshots/week3-card-hover.png)
+![Card hover] (screenshots/card hover.jpeg)
 
 ### Skills Hover
 
-![Skills hover](screenshots/week3-skills-hover.png)
-
-### Demo GIF
-
-![Demo](screenshots/week3-demo.gif)
+![Skills hover](screenshots/skills hover.png)
 
 ## Folder Structure
 
