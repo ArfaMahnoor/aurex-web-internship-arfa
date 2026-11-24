@@ -56,7 +56,6 @@ Written in `scripts/exercises.js`:
 
 ## Challenges Faced and What I Learned
 
-- [Write 2-3 lines about what was difficult, e.g. making the buttons work or fixing code errors]
 - I learned how to select and update elements with the DOM.
 - I learned how to handle events like submit and click.
 - I learned how to save and load data using localStorage with JSON.stringify() and JSON.parse().
